@@ -1,8 +1,6 @@
 @import url(catppuccin_colours.css);
 
-
 :root {
-
   /* Light Colors  */
   --background: var(--latte-base); /* Background color */
   --accent: var(--latte-surface0); /* Hover color */
@@ -18,18 +16,18 @@
     hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 70%),
     hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 90%)
   );
-    /* Dark Colors  */
-    --darkbackground: var(--mocha-base); /* Background color */
-    --darkaccent: var(--mocha-surface0); /* Hover color */
-    --darkcards: var(--mocha-mantle); /* Cards color */
-  
-    /* Fonts Color */
-    --darkfg: var(--mocha-text); /* Foreground color */
-    --darksfg: var(--mocha-rosewater); /* Secondary Foreground color */
-  
-    /* Image background  */
-    --darkimgcol: linear-gradient(
-      hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 70%),
-      hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 90%)
-    );
+  /* Dark Colors  */
+  --darkbackground: var(--mocha-base); /* Background color */
+  --darkaccent: var(--mocha-surface0); /* Hover color */
+  --darkcards: var(--mocha-mantle); /* Cards color */
+
+  /* Fonts Color */
+  --darkfg: var(--mocha-text); /* Foreground color */
+  --darksfg: #b4befe; /* Secondary Foreground color */
+
+  /* Image background  */
+  --darkimgcol: linear-gradient(
+    hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 70%),
+    hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 90%)
+  );
 }

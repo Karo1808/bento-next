@@ -11,9 +11,9 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Karol',
   openInNewTab: true,
-  title: 'Bento',
+  title: 'New Tab',
 
   // Clock
   twelveHourFormat: false,
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -58,7 +58,7 @@ export const config: Config = {
   greetingMorning: 'Good morning,',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
+  greetingNight: 'Good Night,',
 
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
@@ -93,7 +93,7 @@ export const config: Config = {
     clock: true,
     greeter: true,
     date: true,
-    weather: true,
+    weather: false,
   },
 
   // Buttons
