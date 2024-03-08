@@ -12,7 +12,7 @@ import { Config } from './src/types/config';
 export const config: Config = {
   // General
   name: 'Karol',
-  openInNewTab: true,
+  openInNewTab: false,
   title: 'New Tab',
 
   // Clock
