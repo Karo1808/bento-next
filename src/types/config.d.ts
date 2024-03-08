@@ -46,7 +46,7 @@ export interface Config {
 
   // Two button arrays, with 6 buttons in each.
   buttons: [[Button, Button, Button, Button, Button, Button], [Button, Button, Button, Button, Button, Button]];
-  lists: [[List, List], [List, List]];
+  lists?: [[List, List], [List, List]];
   componentsEnabled: EnabledComponents;
 }
 

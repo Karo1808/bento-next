@@ -51,7 +51,7 @@ export const config: Config = {
   // Search Bar
   searchBar: true,
   searchEngine: 'google', // google, ddg
-  barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
+  barPlaceholder: 'Search', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
   // Greetings
@@ -102,9 +102,9 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'Youtube',
+        icon: 'fab-youtube',
+        url: 'https://www.youtube.com/feed/subscriptions',
       },
       {
         name: 'Mail',
@@ -112,14 +112,14 @@ export const config: Config = {
         url: 'https://mail.protonmail.com/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Storygraph',
+        icon: 'fa-book',
+        url: 'https://app.thestorygraph.com/',
       },
       {
         name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        icon: 'fa-graduation-cap',
+        url: 'https://elearning.po.edu.pl/',
       },
       {
         name: 'Reddit',
@@ -127,9 +127,9 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'Github', // set the name of the card
+        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://github.com/', // provide a link to the page.
       },
     ],
     // Second buttons group
@@ -174,44 +174,44 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'fa-code', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'Github', // Display text for the link
+            url: 'https://github.com/', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'React',
+            url: 'https://react.dev/',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Next',
+            url: 'https://nextjs.org/docs',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Mdn',
+            url: 'https://developer.mozilla.org/en-US/',
           },
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'fa-desktop',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Arch',
+            url: 'https://wiki.archlinux.org/',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Hyprland',
+            url: 'https://wiki.hyprland.org/',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'Kernel',
+            url: 'https://www.kernel.org/',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Rice',
+            url: 'https://www.reddit.com/r/unixporn/',
           },
         ],
       },
